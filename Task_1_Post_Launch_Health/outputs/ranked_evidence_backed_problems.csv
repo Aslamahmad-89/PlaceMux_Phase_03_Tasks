@@ -1,0 +1,5 @@
+Rank,Problem,Evidence,Source,Business Impact,Action
+1,Job-view to application conversion,View → Application conversion = 25.01%,company_events.csv,Candidate conversion,Investigate funnel drop-off and segment available event dimensions
+2,Company signup to job-posting conversion,Signup → Job Posted conversion = 120.30%,company_events.csv,Marketplace supply / company activation,Investigate the transition from company signup to job posting
+3,Payment reliability,Payment outcomes require validation against the actual payment status field,payments_data.csv,Revenue reliability,Analyze payment outcomes and identify failure patterns
+4,Source completeness and reconciliation,Company Events missing cells = 4203; Job Posted Events rows = 6 vs 1203 job_posted events,Phase-2 source datasets,Metric reliability,Perform field-level quality and source-coverage reconciliation

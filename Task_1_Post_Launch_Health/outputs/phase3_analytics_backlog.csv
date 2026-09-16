@@ -1,0 +1,6 @@
+Priority,Analytics Task,Metric,Source,Decision,Next Action
+P1,Analyze job-view to application drop-off,View → Application Conversion Rate,company_events.csv,Identify where candidate funnel drop-off requires investigation,Segment funnel performance using available event dimensions
+P1,Analyze company signup to job-posting progression,Signup → Job Posted Conversion Rate,company_events.csv,Identify where company activation requires investigation,Analyze company progression from signup to job posting
+P1,Analyze payment outcomes and failure patterns,Payment Success / Failure Rate,payments_data.csv,Identify payment reliability issues requiring investigation,Validate payment outcomes and investigate failure patterns
+P2,Implement data-quality monitoring,"Missing Values, Duplicates and Invalid Events",Phase-2 source datasets,Determine whether launch metrics are reliable for decision-making,Define field-level quality checks and monitoring rules
+P2,Establish reliable retention measurement,Repeat User / Company Activity,Future longitudinal activity data,Determine the tracking and data requirements needed for retention analysis,Define reliable user/company identifiers and longitudinal event tracking

@@ -1,0 +1,7 @@
+Metric,Value,Source
+Company Signups,1000,company_events.csv
+Jobs Posted,1203,company_events.csv
+Job Views,3555,company_events.csv
+Applications Submitted,889,company_events.csv
+View → Application Conversion,25.01%,company_events.csv
+Signup → Job Posted Conversion,120.30%,company_events.csv

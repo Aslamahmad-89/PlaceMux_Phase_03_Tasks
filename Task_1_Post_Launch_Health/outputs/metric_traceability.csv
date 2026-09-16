@@ -1,0 +1,11 @@
+Metric / Finding,Source Dataset,Source Definition,Traceable
+Company Signups,company_events.csv,event_name = company_signup,Yes
+Jobs Posted,company_events.csv,event_name = job_posted,Yes
+Job Views,company_events.csv,event_name = job_viewed,Yes
+Applications Submitted,company_events.csv,event_name = application_submitted,Yes
+View → Application Conversion,company_events.csv,application_submitted ÷ job_viewed,Yes
+Signup → Job Posted Conversion,company_events.csv,job_posted ÷ company_signup,Yes
+Job Posting Source Count,job_posted_events.csv,Rows in job_posted_events.csv,Yes
+Payment Metrics,payments_data.csv,Payment transaction records,Yes
+Data Quality,Phase-2 source datasets,Missing values and duplicate rows,Yes
+Retention,Not currently measurable,Reliable longitudinal user/company activity is unavailable,Measurement Gap
