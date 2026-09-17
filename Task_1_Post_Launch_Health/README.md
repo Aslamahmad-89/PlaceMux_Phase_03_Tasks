@@ -138,4 +138,4 @@ The task deliverables cover:
 - Phase-3 analytics backlog tied to decisions
 - Metric traceability
 - Validation and edge-case testing
-- End-to-end demonstration using real Phase-2 dataa
+- End-to-end demonstration using real Phase-2 data
